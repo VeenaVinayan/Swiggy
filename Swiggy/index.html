@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/swiggy.png">
+  <title>Order food online from India's best online food delivery service. Oder from restaurent near you. </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="bg-light">
+       <div class="container m-4">
+          <div class="row align-items-center">
+             <div class="col-sm-12 col-md-4">
+               <a href="#"> 
+                <img src="/images/swiggy1.png" class="img-fluid" width="100px" width="170px" alt="...">
+              </a> 
+              <a href="#" class="home-link change-color">Home</a>
+              <label > Eroor North,Eroor,Ernakulam,Kerala...</label>
+               <button class="btn-fluid down-btn" onclick="displayDiv">
+                 <img src="/images/down.png" class="img-fluid">
+               </button>
+             </div>
+            
+            <div class="col-sm-12 col-md-4 justify-content-end">
+              <ul class="nav nav-bar ">
+                <li class="nav-item ">
+                  <img src="/images/search.png" class="img-fluid img-link" alt="Search"> 
+                  <a class="nav-link active link-nav " aria-current="page" href="#">Search</a>
+                </li>
+                <li class="nav-item ">
+                  <img src="/images/offer.png" class="img-fluid img-link" alt="Offers">
+                  <a class="nav-link link-nav" href="#">Offers</a>
+                </li>
+                <li class="nav-item">
+                  <img src="/images/help.png" class="img-fluid img-link" alt="Offers">
+                  <a class="nav-link link-nav" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                  <img src="/images/me.png" class="img-fluid img-link" alt="Offers">
+                  <a class="nav-link link-nav" href="#">Veena</a>
+                </li>
+                <li class="nav-item ">
+                  <img src="/images/cart.png" class="img-fluid img-link" alt="Offers">
+                  <a class="nav-link link-nav" href="#">Cart</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+       </div>
+   </header>
+   <div id="hidden-div">
+        <div class="container p-5">
+          <div class="row m-3">
+            <div class="col">
+              <button type="button" class="btn-close" id="close-btn" onclick="hideDiv()" aria-label="Close"></button>
+            </div>
+          </div>
+           <div class="row m-3">
+            <div class="col">
+               <input type="text" class="form-control" placeholder="search for area street name...">
+            </div>
+            </div>
+            <div class="row m-3">
+              <div class="col location">
+                <img src="/images/gps.png" class="img-fluid img-link" alt="gps">
+                  <p><h4 class="h4"> Get current location </h4></p>
+                  <p>   Using GPS </p> 
+              </div>
+            </div>
+            <div class="row m-3">
+              <div class="col div-addr">
+               <p><h4 class="h4">SAVED ADDRESS </h4></p> 
+               <a href="#">
+                <img src="images/home-hollow.png" class="img-fluid img-link" alt="gps">
+                Home
+               </a>
+                <p>Mattapurath,Eroor North,
+                Kerala-682306,India
+              </p>
+              </div>
+            </div>
+        </div>
+   </div>
+   <div class="container px-4">
+    <div class="row  gx-5 mt-10 justify-content-between">
+      <div class="col-4">
+        <p class="p-head">Best  offers for you</p>
+      </div>
+     <div class="col-sm-12 col-md-4 col-lg-3">
+      <button class="btn-fluid btn arrow-btn">
+         <img src="images/left.png" class="img-fluid " alt="Left arrow button">
+      </button>
+      <button  class="btn-fluid btn arrow-btn">
+         <img src="images/right.png" class="img-fluid" alt="Right arrow button">
+      </button>
+     </div>
+    </div>
+    <div class="row gx-10 mt-10">
+      <div class="col-sm-12 col-md-4 col-lg-3">
+       <img src="/images/starbucks.webp" class="card-img-top" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+         <img src="/images/kfcmain.webp" class="card-img-top" alt="...">
+      </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+           <img src="/images/cricket.webp" class="card-img-top" alt="...">
+         </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <img src="/images/qualityw.webp" class="card-img-top" alt="...">
+        </div>
+    </div>
+    <div class="row mt-20 justify-content-between">
+      <div class="col-sm-12">
+         <p class="p-head">what's on your mind?</p>
+      </div>
+       <div class="col-md-4">
+        <button class="btn-fluid btn arrow-btn">
+           <img src="images/left.png" class="img-fluid " alt="Left arrow button">
+        </button>
+        <button  class="btn-fluid btn arrow-btn">
+           <img src="images/right.png" class="img-fluid" alt="Right arrow button">
+        </button>
+       </div>
+    </div>
+    <div class="row overflow-auto">
+      <div class="col-sm-4 col-md-3 col-lg-2">
+         <img src="images/Kebabs.webp"  class="img-fluid" width="125px" alt="">
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-2">
+         <img src="images/potichoru.webp"  class="img-fluid" width="125px" alt="">
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-2">
+         <img src="images/Shawarma.webp"  class="img-fluid" width="125px" alt="">
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <img src="images/Juice.webp"  class="img-fluid" width="125px" alt="">
+     </div>
+     <div class="col-sm-4 col-md-3 col-lg-2">
+        <img src="images/Pizza.webp"  class="img-fluid" width="125px" alt="">
+     </div>
+     <div class="col-sm-4 col-md-3 col-lg-2">
+        <img src="images/Parotta.webp"  class="img-fluid" width="125px" alt="">
+     </div>
+  
+    </div>
+    <hr> 
+    <div class="row">
+      <div class="col-sm-6 col-md-6">
+      <p class="p-head">Top restaurent chains in kochi</p>
+     </div>
+      <div class="col-sm-6 col-md-6 justify-content-end">
+        <button class="btn-fluid btn arrow-btn">
+           <img src="images/left.png" class="img-fluid " alt="Left arrow button">
+        </button>
+        <button  class="btn-fluid btn arrow-btn">
+           <img src="images/right.png" class="img-fluid" alt="Right arrow button">
+        </button>
+       </div>
+    
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-3 ">
+        <div class="card" style="width: 16rem; height:14rem;">
+          <img src="images/aryas.webp" class="card-img-top img-fluid"  width="140px" height="129px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aaryas</h5>
+            <img src="images/rating.png" class="img-fluid img-link"  alt="....">
+             4.3 35 mins
+             South Indian,North Indian...
+             Kakknad
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card" style="width: 16rem; height:14rem">
+            <img src="images/k-naturals.webp" class="card-img-top img-fluid"  width="194px" height="129px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Natural Ice Creams</h5>
+              <img src="images/rating.png" class="img-fluid img-link"  alt="....">
+              4.8 30 mins
+              Ice creams, Desserts
+              Pallimikku
+            </div>
+       </div>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-3">
+      <div class="card" style="width: 16rem; height:14rem">
+        <img src="images/k-baskin.webp" class="card-img-top img-fluid" width="194px" height="129px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Natural Ice Creams</h5>
+          <img src="images/rating.png" class="img-fluid img-link" alt="....">
+          4. 22 mins
+          Ice creams, Desserts
+          Pallimikku
+        </div>
+   </div>
+  </div>
+  <div class="col-sm-12 col-md-4 col-lg-3">
+    <div class="card" style="width: 16rem; height:14rem">
+      <img src="images/f1.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Palaaram</h5>
+        <img src="images/rating.png" class="img-link" width="16rem" height="10rem" alt="....">
+        4.2 20 mins
+        Kerala,North Indian,Arabian...
+        Kakkanad
+      </div>
+ </div>
+</div>
+  </div>
+</div>
+  <div class="clearfix">
+  </div>
+  
+ <div class="row my-4">
+  <div class="col">
+      <p class="p-head">Restaurent with online delivery in kochi</p>
+  </div> 
+ </div>
+
+
+<hr>
+
+<footer class="bg-light p-4 m-4">
+    <div class="container-fluid">
+      <div class="row bg-light">
+          <div class="col-sm-6">
+              <h2 class="h2">For better expericnce download <br>App now</h2>
+          </div>
+          <div class="col-sm-6">
+           <a>
+            <img src="images/gp.png" class="img-fluid" height="80px" width="170px" alt="">
+           </a>
+           <a>
+            <img src="images/apple.png" class="img-fluid"  height="80px" width="170px"   alt="">
+           </aa>
+          </div> 
+        </div>
+        <div class="row text-white bg-dark">
+          <div class="col-sm-12">
+            <img src="images/whitw-s.png" height="80px" width="100px" alt="">
+            2023 Bundl Technologies <br>
+            Pvt. Ltd
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <ul> 
+            <li>Company</li>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Teams</li>
+            <li>Swiggy One</li>
+            <li>Swiggy Instamart</li>
+            <li>Swiggy Genie</li>
+          </ul>
+         </div>
+         <div class="col-sm-12 col-md-6 col-lg-3">
+          <ul> 
+            <li> <h5>Contact us</h5></li>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Teams</li>
+            <li>Swiggy One</li>
+            <li>Swiggy Instamart</li>
+            <li>Swiggy Genie</li>
+          </ul>
+          <ul>
+          <li> <h5>Legal</h5></li>
+            <li>Terms and Condition</li>
+            <li>Cookie policy</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul> 
+            <li> <h5>We deliver to</h5></li>
+            <li>Banglore</li>
+            <li>Guragon</li>
+            <li>Delhi</li>
+            <li>Hyderabd</li>
+            <li>Mumbai</li>
+            <li>Pune</li>
+          </ul>
+          </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"> </script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+</body>
+</html>
